@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b14442-1af1-41ac-b307-8b768f8e4615" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/singleton/Singleton.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/singleton/Singleton2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/singleton/Singleton3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/singleton/Singleton4.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/MacroRemoteTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/RemoteControl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/RemoteLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/RemoteLoader2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/SimpleRemoteControl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/SimpleRemoteControlTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/command/Command.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/command/GarageDoorDownCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/command/GarageDoorUpCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/command/LightOffCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/command/LightOnCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/command/MacroCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/command/NoCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/command/StereoOffCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/command/StereoOnWithCDCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/component/GarageDoor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/component/Light.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/command/component/Stereo.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,35 +33,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Singleton2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pattern/singleton/Singleton2.java">
+      <file leaf-file-name="MacroRemoteTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/pattern/command/MacroRemoteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Singleton3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pattern/singleton/Singleton3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="409">
+              <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
               <folding>
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Singleton4.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/pattern/singleton/Singleton4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -72,29 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/pattern/decorator/StarbuzzCoffee.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/strategy/WeaponBehavior.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/strategy/SwordBehavior.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/strategy/KnifeBehavior.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/strategy/BowAndArrowBehavior.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/strategy/AxeBehavior.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/strategy/Character.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/strategy/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/strategy/Knight.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/strategy/King.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/observer/WeatherData.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/observer/CurrentConditionsDisplay.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/observer/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/simple_factory/Pizza.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/simple_factory/CheesePizza.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/simple_factory/VeggiePizza.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/simple_factory/ClamPizza.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/simple_factory/PepperoniPizza.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/simple_factory/PizzaFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/simple_factory/PizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/simple_factory/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/factory_method/Pizza.java" />
-        <option value="$PROJECT_DIR$/src/com/pattern/factory_method/NYStyleCheesePizza.java" />
         <option value="$PROJECT_DIR$/src/com/pattern/factory_method/PizzaStore.java" />
         <option value="$PROJECT_DIR$/src/com/pattern/factory_method/NYStylePizzaStore.java" />
         <option value="$PROJECT_DIR$/src/com/pattern/factory_method/ChicagoStylePizzaStore.java" />
@@ -123,6 +94,29 @@
         <option value="$PROJECT_DIR$/src/com/pattern/singleton/Singleton2.java" />
         <option value="$PROJECT_DIR$/src/com/pattern/singleton/Singleton3.java" />
         <option value="$PROJECT_DIR$/src/com/pattern/singleton/Singleton4.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/Command.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/Light.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/LightOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/SimpleRemoteControl.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/component/GarageDoor.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/command/GarageDoorOpenCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/command/Stereo.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/component/Light.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/SimpleRemoteControlTest.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/component/Stereo.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/RemoteLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/command/Command.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/command/GarageDoorDownCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/command/GarageDoorUpCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/command/LightOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/command/LightOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/command/NoCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/command/StereoOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/command/StereoOnWithCDCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/RemoteControl.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/RemoteLoader2.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/command/MacroCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/pattern/command/MacroRemoteTest.java" />
       </list>
     </option>
   </component>
@@ -456,7 +450,23 @@
               <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -482,7 +492,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (4)">
+  <component name="RunManager" selected="Application.MacroRemoteTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -490,14 +500,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MacroRemoteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.pattern.observer.*" />
+          <option name="PATTERN" value="com.pattern.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.pattern.observer.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.pattern.command.MacroRemoteTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -509,14 +519,14 @@
       <module name="design-pattern" />
       <envs />
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.pattern.simple_factory.*" />
+          <option name="PATTERN" value="com.pattern.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.pattern.simple_factory.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.pattern.command.RemoteLoader" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -528,14 +538,33 @@
       <module name="design-pattern" />
       <envs />
     </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoteLoader2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.pattern.factory_method.*" />
+          <option name="PATTERN" value="com.pattern.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.pattern.factory_method.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.pattern.command.RemoteLoader2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="design-pattern" />
+      <envs />
+    </configuration>
+    <configuration name="SimpleRemoteControlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pattern.command.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.pattern.command.SimpleRemoteControlTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -555,25 +584,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.pattern.abstract_factory.Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="design-pattern" />
-      <envs />
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.pattern.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.pattern.strategy.Test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -660,19 +670,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test (3)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test (4)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Test (4)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SimpleRemoteControlTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RemoteLoader" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RemoteLoader2" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MacroRemoteTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test (4)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test (3)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MacroRemoteTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RemoteLoader2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RemoteLoader" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SimpleRemoteControlTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -690,12 +700,12 @@
       <option name="presentableId" value="Default" />
       <updated>1601611562841</updated>
       <workItem from="1601611564438" duration="1969000" />
-      <workItem from="1601620549173" duration="14247000" />
+      <workItem from="1601620549173" duration="20090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16216000" />
+    <option name="totallyTimeSpent" value="22059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -703,24 +713,24 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17980562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22840172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6251557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -741,191 +751,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/strategy/AxeBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="e#127#128#0" expanded="false" />
-            <element signature="e#170#171#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/strategy/KnifeBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="e#129#130#0" expanded="false" />
-            <element signature="e#172#173#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/strategy/SwordBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="e#129#130#0" expanded="false" />
-            <element signature="e#173#174#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/strategy/WeaponBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/strategy/BowAndArrowBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="e#135#136#0" expanded="false" />
-            <element signature="e#178#179#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/strategy/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#200#201#0" expanded="false" />
-            <element signature="e#240#241#0" expanded="false" />
-            <element signature="e#279#280#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/strategy/King.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/strategy/Knight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/strategy/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_121/src.zip!/java/util/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="158" column="16" lean-forward="true" selection-start-line="158" selection-start-column="16" selection-end-line="158" selection-end-column="16" />
-          <folding>
-            <element signature="e#3747#3748#0" expanded="false" />
-            <element signature="e#3784#3785#0" expanded="false" />
-            <element signature="e#5937#5938#0" expanded="false" />
-            <element signature="e#5967#5968#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/observer/WeatherData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/observer/CurrentConditionsDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/observer/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/simple_factory/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#112#113#0" expanded="false" />
-            <element signature="e#154#155#0" expanded="false" />
-            <element signature="e#180#181#0" expanded="false" />
-            <element signature="e#220#221#0" expanded="false" />
-            <element signature="e#245#246#0" expanded="false" />
-            <element signature="e#288#289#0" expanded="false" />
-            <element signature="e#313#314#0" expanded="false" />
-            <element signature="e#356#357#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/simple_factory/CheesePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/simple_factory/ClamPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/simple_factory/VeggiePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pattern/simple_factory/PepperoniPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pattern/simple_factory/PizzaStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -993,14 +818,14 @@
         <state relative-caret-position="33">
           <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding>
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="false" />
+            <element signature="e#607#608#0" expanded="false" />
+            <element signature="e#625#626#0" expanded="false" />
+            <element signature="e#701#702#0" expanded="false" />
+            <element signature="e#719#720#0" expanded="false" />
+            <element signature="e#795#796#0" expanded="false" />
+            <element signature="e#826#827#0" expanded="false" />
+            <element signature="e#853#854#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1130,17 +955,17 @@
         <state relative-caret-position="33">
           <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#354#355#0" expanded="false" />
+            <element signature="e#418#419#0" expanded="false" />
+            <element signature="e#436#437#0" expanded="false" />
+            <element signature="e#512#513#0" expanded="false" />
+            <element signature="e#530#531#0" expanded="false" />
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#639#640#0" expanded="false" />
+            <element signature="e#671#672#0" expanded="false" />
+            <element signature="e#695#696#0" expanded="false" />
+            <element signature="e#722#723#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1189,7 +1014,7 @@
         <state relative-caret-position="198">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1207,12 +1032,12 @@
         <state relative-caret-position="33">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="false" />
+            <element signature="e#253#254#0" expanded="false" />
+            <element signature="e#301#302#0" expanded="false" />
+            <element signature="e#343#344#0" expanded="false" />
+            <element signature="e#393#394#0" expanded="false" />
+            <element signature="e#436#437#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1238,8 +1063,8 @@
         <state relative-caret-position="132">
           <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="false" />
+            <element signature="e#268#269#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1254,9 +1079,239 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pattern/singleton/Singleton4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/component/Light.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/component/Stereo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/component/GarageDoor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/command/GarageDoorDownCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/command/GarageDoorUpCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/command/LightOffCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/command/LightOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/command/NoCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/command/StereoOffCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/command/StereoOnWithCDCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/RemoteLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="31" column="64" lean-forward="false" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/RemoteControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/SimpleRemoteControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/SimpleRemoteControlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/RemoteLoader2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/command/MacroCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pattern/command/MacroRemoteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
