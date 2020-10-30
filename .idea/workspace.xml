@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b14442-1af1-41ac-b307-8b768f8e4615" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/proxy/remote/GumballMachineRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/proxy/remote/GumballMachineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/proxy/remote/GumballMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/proxy/remote/GumballMonitorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/state/GumballMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/state/GumballMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/state/HasQuarterState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/state/HasQuarterState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/state/NoQuarterState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/state/NoQuarterState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/state/SoldOutState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/state/SoldOutState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/state/SoldState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/state/SoldState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/state/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/state/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/state/StateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/state/StateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/proxy/virtual/Icon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/proxy/virtual/ImageProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -476,6 +467,7 @@
       <workItem from="1601620549173" duration="21387000" />
       <workItem from="1603032738953" duration="15040000" />
       <workItem from="1603958256959" duration="7183000" />
+      <workItem from="1604034775734" duration="1165000" />
     </task>
     <servers />
   </component>
@@ -483,9 +475,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2481" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1603962389764">
-      <screen x="1920" y="0" width="1600" height="860" />
+    <state x="539" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1604034987465">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="539" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1604034987465" />
     <state x="2481" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1603962389764" />
     <state width="1483" height="386" key="GridCell.Tab.0.bottom" timestamp="1604021577191">
       <screen x="0" y="0" width="1536" height="824" />
