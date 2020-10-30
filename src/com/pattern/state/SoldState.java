@@ -2,7 +2,7 @@ package com.pattern.state;
 
 public class SoldState implements State {
 
-    GumballMachine gumballMachine;
+    transient GumballMachine gumballMachine;
 
     public SoldState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;
@@ -32,5 +32,10 @@ public class SoldState implements State {
             System.out.println("Oops, out of gumballs!");
             gumballMachine.setState(gumballMachine.getSoldOutState());
         }
+    }
+
+    @Override
+    public String toString() {
+        return "solding ---";
     }
 }

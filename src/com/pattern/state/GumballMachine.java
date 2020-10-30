@@ -1,6 +1,14 @@
 package com.pattern.state;
 
-public class GumballMachine {
+import com.pattern.proxy.remote.GumballMachineRemote;
+
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+
+/**
+ * GumballMachine 要继承 UnicastRemoteObject，以成为一个远程服务
+ */
+public class GumballMachine extends UnicastRemoteObject implements GumballMachineRemote {
 
     State soldOutState;
     State noQuarterState;
@@ -10,13 +18,15 @@ public class GumballMachine {
 
     State state = soldOutState;
     int count = 0;
+    String location;
 
-    public GumballMachine(int numberGumballs) {
+    public GumballMachine(String location, int numberGumballs) throws RemoteException {
         soldOutState = new SoldOutState(this);
         noQuarterState = new NoQuarterState(this);
         hasQuarterState = new HasQuarterState(this);
         soldState = new SoldState(this);
         winnerState = new WinnerState(this);
+        this.location = location;
         this.count = numberGumballs;
         if (numberGumballs > 0) {
             state = noQuarterState;
@@ -67,6 +77,17 @@ public class GumballMachine {
         return winnerState;
     }
 
+    @Override
+    public State getState() {
+        return state;
+    }
+
+    @Override
+    public String getLocation() {
+        return location;
+    }
+
+    @Override
     public int getCount() {
         return count;
     }
@@ -74,7 +95,9 @@ public class GumballMachine {
     @Override
     public String toString() {
         return "GumballMachine{" +
-                "count=" + count +
-                '}';
+            "location=" + location +
+            ", count=" + count +
+            ", state='" + state + '\'' +
+            '}';
     }
 }
