@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74b14442-1af1-41ac-b307-8b768f8e4615" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/proxy/virtual/Icon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/proxy/virtual/ImageProxy.java" afterDir="false" />
-    </list>
+    <list default="true" id="74b14442-1af1-41ac-b307-8b768f8e4615" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -304,6 +301,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -467,7 +465,7 @@
       <workItem from="1601620549173" duration="21387000" />
       <workItem from="1603032738953" duration="15040000" />
       <workItem from="1603958256959" duration="7183000" />
-      <workItem from="1604034775734" duration="1165000" />
+      <workItem from="1604034775734" duration="2996000" />
     </task>
     <servers />
   </component>
