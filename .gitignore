@@ -1,5 +1,7 @@
 target/
-/springlogs
+springlogs
+actionlogs
+tempFile
 .mvn/
 out/
 
