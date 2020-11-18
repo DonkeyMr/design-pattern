@@ -1,7 +1,5 @@
 package com.pattern.chain_of_responsibility;
 
-import jdk.nashorn.internal.ir.annotations.Ignore;
-
 public abstract class AbstractLogger {
 
     public static int INFO = 1;
